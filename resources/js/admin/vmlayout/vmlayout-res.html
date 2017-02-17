@@ -1,0 +1,361 @@
+<svg style="display:none;" class="vmlayout-svg">
+	<symbol id="op-rom-line">
+		<polyline points="0.5 12.5,64.5 12.5" style="stroke-width:1"/>
+	</symbol>
+	<symbol id="ico-empty" viewbox="0 0 48 48">
+		<path style="fill:var(--color-1,#B39DDB)" d="M30.6,44H17.4c-2,0-3.7-1.4-4-3.4L9,11h30l-4.5,29.6C34.2,42.6,32.5,44,30.6,44z"/>
+		<path style="fill:var(--color-2,#7E57C2)" d="M38,13H10c-1.1,0-2-0.9-2-2v0c0-1.1,0.9-2,2-2h28c1.1,0,2,0.9,2,2v0C40,12.1,39.1,13,38,13z"/>
+	</symbol>
+	<symbol id="lan-0" >
+		<polyline points="0.5 130.5 62.5 130.5 62.5 24.5 82.5 24.5"/>
+	</symbol>
+	<symbol id="lan-1" >
+		<polyline points="0.5 196.5 72.5 196.5 72.5 105.5 82.5 105.5"/>
+	</symbol>
+	<symbol id="lan-2" >
+		<polyline points="0.5 262.5 62.5 262.5 62.5 369.5 82.5 369.5"/>
+	</symbol>
+	<symbol id="lan-3" >
+		<polyline points="0.5 328.5 52.5 328.5 52.5 633.5 82.5 633.5"/>
+	</symbol>
+	<symbol id="lan-4" >
+		<polyline points="0.5 394.5 42.5 394.5 42.5 897.5 82.5 897.5"/>
+	</symbol>
+	<symbol id="lan-5" >
+		<polyline points="0.5 460.5 32.5 460.5 32.5 1161.5 82.5 1161.5"/>
+	</symbol>
+	<symbol id="lan-6" >
+		<polyline points="0.5 526.5 22.5 526.5 22.5 1425.5 82.5 1425.5"/>
+	</symbol>
+	<symbol id="lan-7" >
+		<polyline points="0.5 592.5 12.5 592.5 12.5 1689.5 82.5 1689.5"/>
+	</symbol>
+</svg>
+<div id="vmlayout-template" style="display:none;">
+	<div id="panel-template-link-label">
+		<label class="on" tabindex="-1"><span>LAN1</span></label>
+	</div>
+	<div id="panel-template-link-button">
+		<div class="link-button">
+			<a tabindex="-1" class="btn all" href="javascript:;">全通</a>
+    		<a tabindex="-1" class="btn unall" href="javascript:;">全不通</a>
+    	</div>
+	</div>
+	<div id="panel-template-op-rom">
+		<li class="op-rom">
+			<svg><use xlink:href="#op-rom-line"></use></svg>
+			<div class="sys-pc"></div>
+			<div class="sys-ico linux"></div>
+			<div class="sys-text">172.16.12.2 (系统：windows 系统版本：xp 描述：VC++6.0 ichunqiu)</div>
+			<svg class="sys-btn-del" ><use class="ico-empty" xlink:href="#ico-empty"/></svg>
+		</li>
+	</div>
+</div>
+
+<div id="base-container">
+	<div id="vm_layout_container" class="vmlayout-container vm_all">
+		<div id="vm_route" class="vm-route">
+			<div class="firewall" >
+				<div class="image"></div>
+				<div class="panel-txt">
+    					<span>防</span>
+    					<span>火</span>
+    					<span>墙</span>
+    			</div>
+			</div>
+			<div class="route-port open" >
+				<div class="image rotate-90 on"></div>
+				<div class="panel-txt">
+    					<span>端</span>
+    					<span>口</span>
+    					<span>①</span>
+    			</div>
+			</div>
+			<div class="route-port" >
+				<div class="image rotate-90 off open"></div>
+				<div class="panel-txt">
+    					<span>端</span>
+    					<span>口</span>
+    					<span>②</span>
+    			</div>
+			</div>
+			<div class="route-port" >
+				<div class="image rotate-90 off open"></div>
+				<div class="panel-txt">
+    					<span>端</span>
+    					<span>口</span>
+    					<span>③</span>
+    			</div>
+			</div>
+			<div class="route-port close" >
+				<div class="image rotate-90 off close"></div>
+				<div class="panel-txt">
+    					<span>端</span>
+    					<span>口</span>
+    					<span>④</span>
+    			</div>
+			</div>
+			<div class="route-port close" >
+				<div class="image rotate-90 off close"></div>
+				<div class="panel-txt">
+    					<span>端</span>
+    					<span>口</span>
+    					<span>⑤</span>
+    			</div>
+			</div>
+			<div class="route-port close" >
+				<div class="image rotate-90 off close"></div>
+				<div class="panel-txt">
+    					<span>端</span>
+    					<span>口</span>
+    					<span>⑥</span>
+    			</div>
+			</div>
+			<div class="route-port close" >
+				<div class="image rotate-90 off close"></div>
+				<div class="panel-txt">
+    					<span>端</span>
+    					<span>口</span>
+    					<span>⑦</span>
+    			</div>
+			</div>
+			<div class="route-port p2 close" >
+				<div class="image rotate-90 off close"></div>
+				<div class="panel-txt">
+    					<span>端</span>
+    					<span>口</span>
+    					<span>⑧</span>
+    			</div>
+			</div>
+		</div>
+
+		<div id="vm_line"	class="vm-line">
+			<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+				<use xlink:href="#lan-0"></use>
+				<use xlink:href="#lan-1"></use>
+				<use xlink:href="#lan-2"></use>
+				<use xlink:href="#lan-3"></use>
+				<use xlink:href="#lan-4"></use>
+				<use xlink:href="#lan-5"></use>
+				<use xlink:href="#lan-6"></use>
+				<use xlink:href="#lan-7"></use>
+			</svg>
+			
+		</div>
+		
+		<div id="vm_layout"	class="vm-layout">
+			
+			<!-- 操作区 -->
+			<div class="op-layout">
+				<div class="op-panel">
+					<div class="panel-txt">
+    					<span>网</span>
+    					<span>络</span>
+    					<span>①</span>
+    				</div>
+				</div>
+				<div class="op-port">
+					<div class="port uplink link-on rotate-270"></div>
+					<div tabindex="-1" class="port connect"></div>
+				</div>
+				<div class="op-title">
+					<div class="op-link-state open"></div>
+					<div class="op-caption">操作区</div>
+					<div class="op-box"></div>
+				</div>
+				<dir class="op-container"></dir>
+			</div>
+			
+			
+			<div class="op-layout">
+    				<div class="op-panel" >
+    					<div class="panel-txt">
+	    					<span>网</span>
+	    					<span>络</span>
+	    					<span>②</span>
+    					</div>
+    				</div>
+    				<div class="op-port">
+    					<div class="port uplink link-on rotate-270"></div>
+    					<div tabindex="-1" class="port connect"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    				</div>
+    				<div class="op-title">
+    					<div class="op-link-state open"></div>
+    					<div class="op-caption">LAN1</div>
+    					<div class="op-box"></div>
+    				</div>
+    				<dir class="op-container c2"></dir>
+    			</div>
+    			
+    			<div class="op-layout">
+    				<div class="op-panel">
+    					<div class="panel-txt">
+	    					<span>网</span>
+	    					<span>络</span>
+	    					<span>③</span>
+    					</div>
+    				</div>
+    				<div class="op-port">
+    					<div class="port uplink link-on rotate-270"></div>
+    					<div tabindex="-1" class="port connect"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    				</div>
+    				<div class="op-title">
+    					<div class="op-link-state open"></div>
+    					<div class="op-caption">LAN2</div>
+    					<div class="op-box"></div>
+    				</div>
+    				<dir class="op-container c2"></dir>
+    			</div>
+    			
+    			<div class="op-layout" >
+    				<div class="op-panel">
+    					<div class="panel-txt">
+	    					<span>网</span>
+	    					<span>络</span>
+	    					<span>④</span>
+    					</div>
+    				</div>
+    				<div class="op-port">
+    					<div class="port uplink link-off rotate-270"></div>
+    					<div tabindex="-1" class="port connect"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    				</div>
+    				<div class="op-title">
+    					<div class="op-link-state open"></div>
+    					<div class="op-caption">LAN3</div>
+    					<div class="op-box"></div>
+    				</div>
+    				<dir class="op-container c2"></dir>
+    			</div>
+    			
+    			<div class="op-layout" >
+    				<div class="op-panel">
+    					<div class="panel-txt">
+	    					<span>网</span>
+	    					<span>络</span>
+	    					<span>⑤</span>
+    					</div>	
+    				</div>
+    				<div class="op-port">
+    					<div class="port uplink link-off rotate-270"></div>
+    					<div tabindex="-1" class="port connect"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    				</div>
+    				<div class="op-title">
+    					<div class="op-link-state open"></div>
+    					<div class="op-caption">LAN4</div>
+    					<div class="op-box"></div>
+    				</div>
+    				<dir class="op-container c2"></dir>
+    			</div>
+    			
+    			<div class="op-layout" >
+    				<div class="op-panel">
+    					<div class="panel-txt">
+	    					<span>网</span>
+	    					<span>络</span>
+	    					<span>⑥</span>
+    					</div>
+    				</div>
+    				<div class="op-port">
+    					<div class="port uplink link-off rotate-270"></div>
+    					<div tabindex="-1" class="port connect"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    				</div>
+    				<div class="op-title">
+    					<div class="op-link-state open"></div>
+    					<div class="op-caption">LAN5</div>
+    					<div class="op-box"></div>
+    				</div>
+    				<dir class="op-container c2"></dir>
+    			</div>
+    			
+    			<div class="op-layout" >
+    				<div class="op-panel">
+    					<div class="panel-txt">
+	    					<span>网</span>
+	    					<span>络</span>
+	    					<span>⑦</span>
+    					</div>
+    				</div>
+    				<div class="op-port">
+    					<div class="port uplink link-off rotate-270"></div>
+    					<div tabindex="-1" class="port connect"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    				</div>
+    				<div class="op-title">
+    					<div class="op-link-state open"></div>
+    					<div class="op-caption">LAN6</div>
+    					<div class="op-box"></div>
+    				</div>
+    				<dir class="op-container c2"></dir>
+    			</div>
+    			
+    			<div class="op-layout" >
+    				<div class="op-panel">
+    					<div class="panel-txt">
+	    					<span>网</span>
+	    					<span>络</span>
+	    					<span>⑧</span>
+    					</div>
+    				</div>
+    				<div class="op-port">
+    					<div class="port uplink link-off rotate-270"></div>
+    					<div tabindex="-1" class="port connect"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    					<div tabindex="-1" class="port disconnected"></div>
+    				</div>
+    				<div class="op-title">
+    					<div class="op-link-state open"></div>
+    					<div class="op-caption">LAN7</div>
+    					<div class="op-box"></div>
+    				</div>
+    				<dir class="op-container c2"></dir>
+    			</div>
+			
+		</div>
+	</div>
+</div>

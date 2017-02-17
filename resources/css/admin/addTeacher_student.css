@@ -1,0 +1,180 @@
+
+
+.stepTab {
+    margin-top: 24px;
+}
+
+.stepTab a {
+     display: block;
+     width: 130px;
+     height: 37px;
+     float: left;
+     border: 1px solid #CCCCCC;
+     border-bottom: none;
+     border-top-left-radius: 3px;
+     border-top-right-radius: 3px;
+     color: #888888;
+     font-size: 16px;
+     margin-right: 5px;
+     background: #efefef;
+     position: relative;
+     padding-left:20px;
+}
+
+.stepTab a span {
+     padding-left: 20px;
+     line-height: 37px;
+}
+.stepTab a .bgYellow{
+	color:#f9b728;
+	}
+
+.stepTab a.cur {
+     bottom: -1px;
+     background: #FFFFFF;
+}
+
+
+
+.stepCon .tabCon {
+     border: 1px solid #CCCCCC;
+     border-radius: 3px;
+     border-top-left-radius: 0;
+}
+.stepCon .tabCon .addTitle{ 
+	text-align: center; 
+	font-size: 24px; 
+	color:#666666;
+	font-weight: normal; 
+	margin:30px 0;
+}
+.stepCon .tabCon .infoBox{
+	width:500px;
+	margin: 0 auto;
+}
+.addIptBox{
+	margin-bottom: 23px;
+}
+.addIptBox span{
+ 	font-size:16px ;
+ 	color: #999999; 
+     display:inline-block ;
+     width:90px;
+     text-align: right;
+     margin-right:10px;
+}
+.addIptBox span nobr{
+	color:red;}
+.tabCon form {
+	padding-top:40px;}
+.addIptBox .ipt{
+	width:368px;
+	height: 29px;
+	border:1px solid  #CCCCCC;
+}
+.addIptBox  a{
+	display: inline-block;
+	width: 95px;
+	height: 35px;
+	border-radius: 3px;
+	color: #FFF;
+	line-height: 35px;
+	}
+
+.floatBtn a,.floatBtn input{
+	float:left;
+	}
+.floatBtn input{
+	margin-left:265px
+
+	} 
+
+.inputBtn:active{
+    background:#FF8401;
+    opacity:0.8;
+}
+
+
+.inputAddBtn:active{
+    background:#FF8401;
+     opacity:0.8;
+}
+.continueBtn{
+	margin-left:55px;
+}
+.continueBtn:active{
+    background:#1CBED0;
+}
+
+.uploadIcon:visited {
+	background: #01a9eb;
+}
+
+.uploadIcon:hover {
+	background: #01a9eb;
+}
+
+
+.list {
+     padding-left: 10px;
+}
+
+.studentList {
+    margin-bottom:10px;
+    width: 810px;
+    border-collapse: collapse;
+}
+
+.studentList td {
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    vertical-align: middle;
+	color:#000;
+}
+
+.studentList thead td {
+	background: #ecf6ff;
+	border-top: 4px solid #00a8ec;
+}
+
+.cRed {
+     color: #f75a5a;
+     margin-top: 20px;
+}
+
+.import {
+     padding-left: 140px;
+     padding-top: 50px;
+     position: relative;
+}
+
+.iptImport {
+     width: 380px;
+     height: 25px;
+     border: 1px solid #CCCCCC;
+     padding-left: 2px;
+}
+
+
+
+.importTitle {
+     color: #88888;
+     margin: 20px 0;
+}
+
+.importTitle span {
+     color: #f75a5a
+}
+
+.uploadIpt {
+	float:left;
+	width: 387px;
+	height: 27px;
+	border:none;
+	
+}
+
+
+/*所有教师*/
+

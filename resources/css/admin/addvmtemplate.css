@@ -1,0 +1,603 @@
+.contentInner {
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+
+.addItem {
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.addTit {
+	display: block;
+	width: 130px;
+	font-size: 16px;
+	color: #666666;
+	text-align: right;
+	line-height: 29px;
+}
+.chkbox{
+	float:left;
+	height:30px;
+}
+.addIpt {
+	width: 458px;
+	height: 25px;
+	border: 1px solid #CCCCCC;
+}
+
+.addTxt {
+	width: 454px;
+	height: 148px;
+	border: 1px solid #CCCCCC;
+	resize: none;
+}
+
+.fl {
+	float: left;
+	margin-left: 5px;
+}
+.tab{
+	margin-top:45px;
+}
+.tab div{
+	position:relative;
+	top:3px;
+}
+
+.addCtfTemplate .table table tr td span{
+	cursor:pointer;
+}
+.addCtfTemplate .table table tr{
+	line-height:30px;
+}
+.addCtfTemplate .table table tr th{
+	font-weight:100;
+}
+.addCtfTemplate .table table{
+	width:100%;
+	background:#eee;
+	border-top:3px solid #00a8ec;
+	color:#666666;
+}
+.addCtfTemplate .table table td{
+	text-align:center;
+	background:#fff;
+
+}
+#scfj{
+	border:none;
+}
+.addLabel {
+	display: inline-block;
+	border: 1px solid #CCCCCC;
+}
+.addItem label {
+	padding: 2px 8px;
+	line-height: 29px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.addItem label .cur {
+	color: #2b95da;
+}
+.addItem label a.cur {
+	color: #2b95da;
+}
+.addItem label .kur {
+	color: #666666;
+}
+
+.ckur {
+    color: #666666;
+}
+.ccur {
+	color: #2b95da;
+}
+
+.mkur {
+	color: #666666;
+}
+.mcur {
+	color: #2b95da;
+}
+.tkur {
+	color: #666666;
+}
+.tcur {
+	color: #2b95da;
+}
+.skur {
+	color: #666666;
+}
+.ocur {
+	color: #2b95da;
+}
+.fcur {
+    color: #2b95da;
+}
+
+label a {color:#111;}
+
+
+
+#scfj{
+	margin-left:7px;
+}
+#icon{
+	font-size:16px;
+	color:#999;
+	margin-right:5px;
+	margin-left:5px;
+}
+.ponit{
+	position:relative;
+	top:2px;
+}
+
+.xuanxiang p{
+	position:relative;
+	top:4px;
+}
+.xuanxiang p a{
+	font-size:20px;
+	font-weight:bold;
+	color:#999;
+}
+#shiyan{
+	color:#999;
+	outline:none;
+}
+#scfj{
+	margin-left:7px;
+	position:relative;
+	top:1px;
+}
+
+.tcur{
+	color:#2b95da;
+}
+
+
+
+
+.addLabel b {
+	font-weight: normal;
+	padding: 4px 15px 4px 4px;
+}
+
+.addLabel em {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border-left: 1px solid #CCCCCC;
+	text-align: center;
+	line-height: 25px;
+}
+.selList{
+	width:198px;
+	height:149px;
+	position: absolute;
+	left:0;
+	top:30px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	background: #FFFFFF;
+	z-index: 333;
+	display: none;
+	overflow: auto;
+	
+}
+.selList ul li{ height:24px; line-height: 24px;  cursor: pointer;padding-left:3px;}
+.selList ul li.cur{ background:#efefef; }
+.addLableBtn {
+	display: inline-block;
+	width: 89px;
+	height: 29px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 29px;
+	border-radius: 3px;
+	background: #f9b728;
+	margin-left: 5px;
+}
+
+.ps {
+	padding-left: 130px;
+	margin-top: 10px;
+	color: #f75a5a;
+}
+
+.selBox {
+	margin: 15px 0;
+}
+
+.sel {
+	width: 198px;
+	border: 1px solid #CCCCCC;
+	height: 29px;
+	float: left;
+	position: relative;
+}
+
+.sel .selIpt {
+	width: 168px;
+	height: 25px;
+	border: none;
+	outline: none;
+	line-height: 25px;
+}
+
+.sel em {
+	width: 24px;
+	border-left: 1px solid #CCCCCC;
+	height: 29px;
+	display: inline-block;
+	text-align: center;
+	padding-left: 7px;
+	line-height: 29px;
+}
+
+.showPic {
+	float: left;
+	width: 167px;
+	height: 122px;
+	background: url(../../img/showpic.png) no-repeat;
+}
+
+.uploadBtn {
+	display: inline-block;
+	width: 89px;
+	height: 29px;
+	border-radius: 3px;
+	margin-left: 5px;
+	color: #FFFFFF;
+	line-height: 29px;
+	text-align: center;
+	background: #2b95da;
+}
+
+.uploadBtn:hover {
+	background: #41aff7;
+}
+
+.btnbox {
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+.save {
+	background: #F9B728;
+}
+
+.save:hover {
+	background: #F9B728;
+    opacity: 0.8;
+}
+
+.backTo {
+	margin-left: 50px;
+}
+
+.back:hover {
+	background: #41aff7;
+}
+.redinfo{
+	background-color:#ffdddc;
+    display: none;
+    color: #ff4a43;
+    border-color: #ff4a43;
+}
+#errorinfo{
+	width: 300px;
+	height: 30px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 30px;
+}
+textarea{
+	padding-left: 10px;
+	font-family: "Microsoft YaHei", "微软雅黑";
+    font-size: 14px;
+    outline: none;
+}
+
+.myarchlist .myarchlistTitle {
+	font-size: 18px;
+	font-weight: normal;
+	height: 40px;
+	line-height: 50px;
+	padding-left: 8px;
+	color: #000000;
+	background: #fcfcfc;
+	border-bottom: 1px solid #CCCCCC;
+}
+.changjing{
+	font-size: 15px;
+	font-weight: normal;
+	height: 25px;
+	line-height: 50px;
+	margin-top: 4px;
+	margin-left: 7px;
+}
+
+.danji{
+	margin-top: -20px;
+	margin-left: 450px;
+}
+
+.ponit{
+	margin-top: -25px;
+	margin-left: 380px;
+}
+
+
+.box{
+	width:500px;
+	margin-left:140px;
+	margin-top:-20px;
+}
+
+.xuanxiang p{
+	width:400px;
+	height:30px;
+}
+
+#ctfDetail,#sceneDetail{
+	width:700px;
+	background:#fff;
+	overflow:auto;
+}
+.testPaperSubjectTable {
+    width: 610px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto 10px;
+    vertical-align: middle;
+    line-height: 41px;
+    margin-top: 15px;
+    color: #666666;
+}
+
+.testPaperSubjectTable td {
+    height: 41px;
+    overflow:hidden;
+    border: 1px solid #CCCCCC;
+    color: #666666;
+    border: 1px solid #eaf0f7;
+    vertical-align: middle;
+}
+
+.testPaperSubjectTable thead td {
+     height: 41px;
+    background: #efefef;
+        background: #ecf6ff;
+    border-top: 4px solid #00a8ec;
+} 
+.infoBox {
+    /*width: 678px;*/
+    /*height: 469px;*/
+    height: auto;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    padding-top: 30px;
+	padding-bottom:30px;
+    background: #FFFFFF;
+	/*overflow-x:hidden;*/
+	/*overflow-y:auto;*/
+}
+
+.listBox {
+    width: 610px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.listBox span {
+    font-size: 16px;
+    color: #999999;
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+
+.listBox label {
+    display: inline-block;
+    text-align: center;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.listBox label.cur {
+    /*color: #41aff7;*/
+    background: #00a8ec;
+    color: #FFFFFF;
+}
+
+.addexam .ipt {
+    width: 518px;
+    height: 29px;
+    border: 1px solid #CCCCCC;
+}
+
+.testPaperTitle {
+    font-size: 18px;
+    color: #666666;
+    padding-left: 34px;
+    
+    margin-top:30px; 
+}
+
+.subjectTitle {
+    font-size: 16px;
+    /*color: #666666;*/
+    color: #999999;
+    float: left;
+    line-height: 29px;
+}
+
+.changeBtn {
+    display: block;
+    float: right;
+    width: 89px;
+    height: 29px;
+    border-radius: 3px;
+    background: #2b65da;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 29px;
+}
+
+.changeBtn:hover {
+    background: #41aff7;
+}
+
+.testPaperSubjectTable {
+    width: 610px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto 10px;
+    vertical-align: middle;
+    line-height: 41px;
+    margin-top: 15px;
+    color: #666666;
+}
+
+.testPaperSubjectTable td {
+    height: 41px;
+    overflow:hidden;
+    /*border: 1px solid #CCCCCC;*/
+    color: #666666;
+    border: 1px solid #eaf0f7;
+    vertical-align: middle;
+}
+
+.testPaperSubjectTable thead td {
+     height: 41px;
+    /*background: #efefef;*/
+        background: #ecf6ff;
+    border-top: 4px solid #00a8ec;
+}
+#Searchresult{
+    height: 41px;
+}
+#Searchresult td{
+	width:70px;
+	width:200px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+
+.addItem a {
+    width: 95px;
+    height: 35px;
+    line-height: 35px;
+}
+
+/*.inputBtn {
+    background: #45c47b;
+}
+
+.inputBtn:hover {
+    background: #64df99;
+    cursor: pointer;
+}*/
+
+/*.backBtn {
+    background: #c45f46;
+    margin-left: 55px;
+}
+
+.backBtn:hover {
+    background: #e66445;
+    margin-left: 55px;
+}*/
+
+/*.score{
+    width: 105px;
+    text-align: center;
+    padding:0 auto;
+    border:0;
+}
+*/
+#editexamBox td{
+    padding:0px 5px;
+    overflow:hidden;
+    text-overflow: ellipsis;/*超出部分省略*/
+    white-space: nowrap;/*强制不换行*/
+}
+
+#addexamBox td{
+    padding:0px 5px;
+    overflow:hidden;
+    text-overflow: ellipsis;/*超出部分省略*/
+    white-space: nowrap;/*强制不换行*/
+}
+
+#addquestionBox td{
+    padding:0px 5px;
+    overflow:hidden;
+    text-overflow: ellipsis;/*超出部分省略*/
+    white-space: nowrap;/*强制不换行*/
+}
+
+#addquestionBox2 td{
+    padding:0px 5px;
+    overflow:hidden;
+    text-overflow: ellipsis;/*超出部分省略*/
+    white-space: nowrap;/*强制不换行*/
+}
+/*选择题目弹出框*/
+.line{
+	border:1px solid #CCCCCC;
+	height:34px;
+	line-height:34px;
+	
+	
+}
+.line span{
+	text-align:left;
+	padding-left:10px;
+	width:70px;
+}
+.noMargin{
+	margin-bottom:0;
+}
+.noBorder{
+	border-top:none;
+	margin-top:0;
+}
+/*.choiceDiv{
+	width:600px;
+	height:42px;
+	margin:17px auto;
+	border:1px solid #CCCCCC;
+	padding-left:10px;
+}
+.choiceDiv h3{
+	line-height:42px;
+	font-weight:normal;
+	font-size:14px;
+	color:#666666;
+	
+}*/
+
+#addexamBox .testPaperSubjectTable input{
+    border:0;
+    color:#666;
+    text-align: center;
+    width:80px;
+}
+.cn{
+    width:637px;
+}
+
+.vmtplname{
+	width: 426px;
+	margin-left: 5px;
+	border: 1px solid #CCCCCC;
+}

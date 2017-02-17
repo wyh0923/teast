@@ -1,0 +1,357 @@
+/*
+ * noVNC base CSS
+ * Copyright (C) 2012 Joel Martin
+ * Copyright (C) 2013 Samuel Mannehed for Cendio AB
+ * noVNC is licensed under the MPL 2.0 (see LICENSE.txt)
+ * This file is licensed under the 2-Clause BSD license (see LICENSE.txt).
+ */
+:-webkit-full-screen{ background-color:#313131; }
+:-moz-full-screen{ background-color:#313131; }
+:-ms-full-screen{ background-color:#313131; }
+:-o-full-screen{ background-color:#313131; }
+:full-screen{ background-color:#313131; }
+body {
+  margin:0;
+  padding:0;
+  font-family: Helvetica;
+  /*Background image with light grey curve.*/
+  background-color:#313131;
+  background-repeat:no-repeat;
+  background-position:right bottom;
+  height:100%;
+  width: 100%;
+  overflow:hidden !important;
+
+}
+
+html {
+  height:100%;
+  width: 100%;
+}
+#noVNC_status{
+	position: relative;
+	 height: auto;
+	 display:none;}
+.noVNC_status_error{
+  height: 50px;
+  background-color: #1A1A1A;
+}
+.vnc-msg,.vnc_help{
+  float: right;
+  /* position:fixed; */
+  display: none;
+  border-radius:3px;
+  border:1px solid Lime;
+  color:Lime;
+  padding:0 6px;
+  margin-left: 10px;
+  margin-top: 18px;
+  margin-right:300px;
+  height:20px;
+  line-height: 20px;
+  
+}
+.vnc_help .mar20{
+  margin-right: 40px;
+}
+.header-content-back{
+  display:block;
+  background-color:#313131;
+  height:0px;
+  width:100%;
+}
+.header-content-hand{
+  display:none;
+  position:absolute;
+  top:-18px;
+  height:32px;
+  width:100px;
+  background-color:#000;
+  background:-moz-linear-gradient(top, #6E6E6E, #393939);
+  background:-webkit-linear-gradient(top, #6E6E6E, #393939);
+  background:-o-linear-gradient(top, #6E6E6E, #393939);
+  border-radius:6px;
+  color:#FFF;
+  text-align:center;
+  line-height:48px;
+  cursor:pointer;
+  -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.header-content{
+  -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+  background:#1a1a1a;
+  height:52px;
+}
+.header{
+  margin: 0px auto;
+  width: 1024px;
+  overflow: hidden;
+}
+
+.header .exp-logo img {
+  margin: 0px 0px 0px 10px;
+  padding:0px;
+}
+.noVNC_status_normal,.noVNC_status_error,.noVNC_status_warn{ 
+	float:left;background:none !important; 
+	margin-top:10px;
+	text-align:center;
+	width:450px;}/* width:800px; */
+.noVNC_status_bar{
+	background:#000;
+}
+.header .exp-score {
+    color: #f8b628;
+    float: left;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+.header-content .exp-logo{ 
+	float:left;
+	 margin-right:30px;
+	 float: left;
+	 cursor: pointer;}
+.header-content .exp-logo img {
+  margin: 0px 0px 0px 10px;
+}
+.gameover{
+background: url(../imgs/student/au_13.png) no-repeat 8px 50%;
+float: left;
+height:30px;
+margin-top: 2px;
+width:90px;
+text-align:right;
+color:#fff;
+border:none;
+cursor:pointer;
+margin-right: 10px;
+}
+.gameReload{
+background:url(../imgs/student/au_11.png) no-repeat 10px 50%;
+float: left;
+height:30px;
+margin-top: 2px;
+width:65px;
+text-align:right;
+color:#fff;
+border:none;
+cursor:pointer;
+margin-right: 10px;
+}
+.gameHelp{
+  float: left;
+  height:30px;
+  margin-top: 2px;
+  width:65px;
+  text-align:right;
+  color:#fff;
+  border:none;
+  cursor:pointer;
+  background:url(../imgs/student/help_my.png) no-repeat 10px 50%;
+  margin-right: 10px;
+}
+.sendCtrlAltDelButton{
+background: url(../imgs/student/au_15.png) no-repeat 5px 50%;
+float: left;
+height: 30px;
+margin-top: 2px;
+width: 190px;
+color:#fff;
+border:none;
+cursor:pointer;
+
+}
+#sendCtrlAltDelButton{
+	display:inline;
+	}
+.noVNC_buttons{ display:block; overflow:hidden;}
+.btn-minify-top {
+background: url(../imgs/student/minify-top.png) no-repeat;
+cursor: pointer;
+float: right;
+height: 24px;
+margin-left: 10px;
+margin-top: 18px;
+margin-right:20px;
+width: 24px;
+}
+
+.btn-retexp{
+background: url(../imgs/student/au_11.png) no-repeat 5px 50%;
+float: left;
+height:30px;
+margin-top: 2px;
+width:90px;
+text-align:right;
+color:#fff;
+border:none;
+cursor:pointer;
+}
+.btn-retvm{
+background: url(../imgs/admin/vmlayout/au_17.png) no-repeat 5px 50%;
+float: left;
+height:30px;
+margin-top: 2px;
+width:65px;
+text-align:right;
+color:#fff;
+border:none;
+cursor:pointer;
+}
+.quanping{ display:none; right:100px; position:absolute; z-index:100;}
+canvas.current{}
+
+
+a{
+  text-decoration:none;
+}
+#noVNC_xvp_buttons{
+	display:none}
+.vnc_help{
+  z-index: 9999;
+  position: fixed;
+  top: 114px;
+  left: 50%;
+  margin:0;
+  margin-left: -280px;
+
+}
+.maskbox{	
+    width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.5);
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999;
+	display:none;
+
+	}
+	
+.popUpset{
+	background-color:#fff;
+	border-radius:4px;
+	font-size: 14px;
+	font-weight:normal;
+	position:absolute;
+	z-index:99999;
+	display:none;
+	
+	}
+.popUpset .popTitle{
+  position: relative;
+	background-color:#000;
+	border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+	border-bottom: 3px solid #f9b728;
+	}
+.popUpset .popTitle p {
+	margin:0;
+	padding:0;
+	height:60px;
+	text-align:center;
+	line-height:60px;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 57px;
+	width:662px;
+
+}
+.popUpset .popTitle a.close{
+	width: 90px;
+   height: 60px;
+	cursor: pointer;
+   text-align: center;
+    background: url(../imgs/public/close.png) center center no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+	}
+	
+.popUpset .popTitle a.close:hover{
+    background-color: #333;
+}
+.popUpset .infoBox{
+	padding-top:20px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    background: #FFFFFF;;
+	border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+	padding-bottom:20px;
+	}
+	
+
+/*提示弹窗*/
+p.promptNews{
+	color: #666666;
+    font-size: 24px;
+    text-align: center;
+	line-height:40px;
+	}
+p.promptUp{
+	line-height:120px;
+	
+	}
+/*按钮*/
+.btnBox {
+	padding-top:20px;
+	text-align:center;
+	}
+.btnBox a{
+	display: inline-block;
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 3px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-left:20px;
+	}
+.btnBox a:first-child{
+	margin-left:0px;}
+.publicOk {
+	background: #FF8401;
+	}
+.publicOk:hover {
+    background: #FF8401;
+    opacity: 0.7;
+}
+.publicNo {
+    background: #2B95DA;
+}
+.publicNo:hover {
+    background: #2B95DA;
+    opacity: 0.8;
+	}
+/*时长*/
+.sneceTime{
+  color: #fff;
+  font-family: "Microsoft YaHei", "微软雅黑";
+  float: left;
+  margin: 12px 0 0 15px;
+
+ 
+}
+.sneceTime span{
+  float: left;
+  height: 35px;
+  line-height: 35px;
+}
+span.timeBg{
+   width: 46px;
+   height: 35px;
+   background: url(../imgs/student/time_bg.png) no-repeat 50% center;
+   background-size:70%;
+   color:Lime;
+   text-align:center;
+}

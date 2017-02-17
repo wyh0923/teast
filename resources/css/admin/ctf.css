@@ -1,0 +1,76 @@
+﻿
+
+
+
+/*实训管理*/
+.createCtfName{
+	margin:20px 0 10px;}
+.createCtfName .name input{
+	width:733px;
+	height:36px;
+	line-height:36px;
+	float:left;}
+.createCtfName .name span{
+	float:left;
+	line-height:35px;}
+.createCtfName .descroe{
+	padding-top:20px;}
+.createCtfName .descroe textarea{
+	width:735px;
+	float:left;
+	height:100px;
+
+	
+}
+.createCtfName .descroe span{
+	line-height:75px;
+	float:left;
+
+}
+/*场景模板详情弹窗*/
+.ctfPopNews table{
+	float:none;}
+.ctfPopNews table tr td{
+	color:#999999;
+	background-color:#FFF;
+	overflow:visible;
+	white-space:normal}
+.ctfPopNews table tr td:first-child{
+	color:#666666;
+	}
+/*申请实验环境弹窗*/
+.popUpset .requestBtn .taskprogr{
+	width:250px;
+	height:30px;
+	background: #d4d4d4;
+	border-radius: 3px;
+	text-align: center;
+	position:relative;
+	margin:0 auto;
+	}
+.popUpset .requestBtn .taskprogr .resTxt {
+			color:#FFF;
+			position:absolute;
+			top:0px;
+			left:0px;
+			line-height:30px;
+			width:250px;
+			z-index:2;
+		}
+.popUpset .requestBtn .taskpro {
+			width:70%;
+			height: 30px;
+			background: #bac425;
+			border-radius: 3px;
+			z-index:1;
+			
+		}
+.popUpset .requestBtn	.stopBtn{
+	font-size:30px;
+	color:#cc0000;
+	position:absolute;
+	right:-40px;
+	top:-2px;
+	line-height:30px;
+	cursor:pointer;
+	}

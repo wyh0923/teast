@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.content .courseInfo {
+    margin-top: 24px;
+}
+
+.course_img {
+    float: left;
+    width: 392px;
+}
+.course_img img{
+	width:392px;
+	height:244px;}
+.content .courseInfoText {
+    float: right;
+    width: 430px;
+}
+
+.content .courseName {
+    font-size: 24px;
+    padding-left:7px;
+    max-width:430px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-bottom: 10px;
+    }
+
+.courseInfoAbout ul.ulLeft{
+	float:left;
+	width:150px;}
+.courseInfoAbout ul.ulRight{
+	float:right;
+    width: 200px}	
+.courseInfoAbout {
+    padding: 0 10px 10px 15px;
+    border-bottom: 1px #e6e6e6 solid;
+}
+
+.courseInfoAbout ul li {
+    min-height: 30px;
+    line-height: 30px;
+    max-height: 30.5px;
+}
+
+
+
+.courseInfoAbout ul li span {
+    margin-left: 10px !important;
+    float:left;
+}
+.courseInfoAboutNoF ul li span{
+    float: none;
+}
+.courseInfoAbout ul.ulRight li>span{
+    margin-top: 2px
+}
+.courseInfoAbout ul li span.spanTiltle{
+    margin: 0px !important
+}
+
+.courseInfoAbout ul li span.spanBlue,
+.courseInfoAbout ul li span.spanGreen,
+.courseInfoAbout ul li span.spanRed,.courseInfoAbout ul li span.spanYellow {
+    display: inline-block;
+    height: 24px;
+    color: #fff;
+    margin-left: 10px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.courseInfoAbout ul li span.spanBlue {
+    background: #2c98de;
+	padding:0 6px;
+}
+
+.courseInfoAbout ul li span.spanGreen {
+    background: #34b456;
+    width: 51px;
+}
+.courseInfoAbout ul li span.spanYellow {
+    background: #F8B526;
+    width: 51px;
+}
+
+.courseInfoAbout ul li span.spanRed {
+    background: #ba2321;
+    width: 51px;
+}
+
+.courseInfoMore {
+   padding: 10px 10px 10px 15px;
+}
+.courseInfoMore ul li {
+    float: left;
+    height: 30px;
+    
+}
+.courseInfoMore ul li i{
+   
+    color: #F9B728;
+	padding-right:5px;
+    
+}
+.courseInfoMore ul li .st{
+   
+    color: #34B456;
+    
+}
+.courseInfoMore ul  .et{
+   
+    color: #C45F46;
+    
+}
+/*.courseInfoMore ul li.bgspks,
+.courseInfoMore ul li.bgks{
+	padding-left:20px;
+}*/
+.courseInfoMore ul li.w250 {
+    width: 205px;
+}
+
+
+.courseStudy {
+    width: 240px;
+    height: 50px;
+    background: #d7d6d5;
+    position: relative;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+.courseStudy button{
+	width:100%;
+	height:100%;
+	border:none;
+	border-radius: 3px;
+	background-color:#F8B526;
+	color:#fff;
+	font-size:18px;
+    cursor: pointer;
+	}
+.courseStudy p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+}
+
+.coursePr {
+    background: #34B457;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.curseInfoMsg {
+    margin-top: 10px;
+}
+
+.courseInt {
+    height: 26px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+   background: url(../../imgs/student/chapter.png) no-repeat left center;
+    padding-left: 35px;
+}
+
+.curseIntMsg {
+    font-size: 14px;
+    padding-left: 24px;
+    margin-top: 15px;
+}
+
+.courseStep {
+    height: 29px;
+    background: url(../../imgs/student/courseInfo.png) #f3f3f3 10px center no-repeat;
+    font-size: 16px;
+    line-height: 29px;
+    padding-left: 35px;
+    margin-top: 20px;
+}
+.courseStep:last-child{
+	margin-bottom:84px;}
+.courseInner {
+    border-left: 1px dashed #c9c9c9;
+}
+
+.courseStepItem {
+    margin-top: 20px;
+}
+
+.courseStepItem h3.step {
+    font-weight: normal;
+    font-size: 16px;
+    height: 31px;
+    padding-left: 30px;
+    line-height: 31px;
+    position: relative;
+}
+
+.courseStepItem h3.step b {
+	display:inline-block;
+	width:26px;
+	height:26px;
+	margin-right:10px;
+	text-align:center;
+   color:#FFF;
+   line-height:26px;
+   font-size:12px;
+   font-weight:normal;
+   background: url(../../imgs/student/step.png) no-repeat;
+}
+
+.courseStepItem h3 em {
+    width: 20px;
+    border: 1px dashed #c9c9c9;
+    position: absolute;
+    top: 15px;
+    left: 2px;
+    height: 0;
+    display: block;
+    overflow: hidden;
+}
+
+.courseStepItem .item {
+    margin-left: 68px;
+    margin-top: 17px;
+    font-size: 14px;
+}
+
+.itemTitle {
+	width: 300px;
+    max-width: 300px;
+    float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.itemTitle a,
+.itemTitle a:hover {
+    color: #333;
+}
+.itemTitle a:hover {
+    text-decoration:underline;
+    color: #338;
+}
+
+.couseTime {
+    float: left;
+    margin-left: 20px;
+}
+
+.spsc ,
+.skt {
+   display:inline-block;
+	width:160px;  
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;	
+}
+
+.spsc i,
+.skt i{
+   	color:#999;
+	padding-right:5px;
+}
+
+.courseState {
+    float: right;
+    display:block;
+    width: 94px;
+    height: 28px;
+    padding-left:15px;
+    color: #fff;
+    line-height: 28px;
+    border-radius: 5px;
+}
+.courseState span{padding-left:6px;}
+.courseState i{
+	padding-left:3px;}
+.play{background:#34b456;}
+
+.play:hover { background:#2ca14c;}
+
+.starment {
+    background: #e1a61f ;
+}
+.starment:hover {
+background: #dd9700 no-repeat 10px center;}
+
+
+.borBottom {
+    border-bottom: 1px solid #c9c9c9;
+    padding-bottom: 20px;
+}
+.courseInfoAbout ul li .fuCeng span.spanBlue{
+    margin-bottom:6px;
+    cursor: default;
+    max-width: 128px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 0 !important;
+
+    }
+#ifFuceng>span{
+    max-width: 128px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.fuCeng{
+    position:absolute;
+    left:50px;
+    top:2px;
+    background: rgba(0,0,0,0.15);
+    z-index:8;
+    display: none; 
+    padding: 6px;
+    border-radius:4px;
+}
+.fuCeng p{
+    max-width:200px;
+    overflow: hidden;
+}
+#ifFuceng{
+    position: relative;
+    vertical-align: top;
+}
+#moreNewsLei{
+    margin-left:6px;
+   font-size:20px; 
+   cursor:pointer;
+   position:absolute;
+   left:45px; top:4px;
+   z-index:9;
+   display: none;
+}
+#moreNewsLei span{
+    font-size:15px;
+    font-family:'微软雅黑';
+    position:absolute;
+    left:13px;
+    top:2px;
+    display:inline-block;
+    width:40px
+}

@@ -1,0 +1,118 @@
+.structureHead .addBtn {
+	float: right;
+    width: 94px;
+    height: 29px;
+    border-radius: 3px;
+    background: #2b95da;
+    color: #FFFFFF;
+    line-height: 29px;
+    text-align: center;
+	margin-right:10px;
+    
+}
+.structurBody {
+	margin-top: 15px;
+}
+
+.structurBody .lessonList {
+	margin: 0 10px 0 40px;
+	padding: 0;
+	list-style: none;
+	border-left: 2px solid #ccc;
+}
+
+.structurBody .itemChaper,
+.structurBody .itemLesson {
+	margin-left: -30px;
+	border: 1px solid #ccc;
+	background: #FFFFFF;
+	line-height: 40px;
+	margin-bottom: 15px;
+}
+
+.structurBody .itemChaper.cur{
+	background: #f5f5f5;
+	}
+.structurBody .itemContent {
+	margin-left: 10px;
+	overflow: hidden;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	position: relative;
+	color:#666666;
+}
+.structurBody .itemLesson .itemContent {
+	width:495px;}
+.structurBody .itemContent a{
+	color: #666666;
+}
+.structurBody .itemActions {
+	visibility:hidden;
+	border-left: 1px solid #ddd;
+	float: right;
+	position: relative;
+	width: 240px;	
+}
+.structurBody .itemChaper:hover{
+
+	background: #f5f5f5;
+}
+.structurBody .itemChaper:hover .itemActions{
+	visibility:visible
+}
+.structurBody .itemActions .adddBtn
+{
+	margin: 0 10px;
+	color: #666666;
+	cursor: pointer;
+	display:inline-block;
+}
+.structurBody .itemActions .adddBtn i
+ {
+	color: #666666;
+	margin-right: 3px;}
+.structurBody .forByYellow .adddBtn:hover i{
+	color:#d99708;}
+.structurBody .forByYellow .adddBtn:hover {
+	color:#d99708;
+}
+.structurBody .marginLeft15 {
+	margin-left: -15px;
+}
+.structurBody .marginLeft15 .itemContent{
+	width:530px;
+}
+.structurBody .itemLesson {
+	margin-left: 20px;
+}
+
+.structurBody .itemLesson .itemLine {
+	border-bottom: 2px solid #ccc;
+	vertical-align: top;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin-left: -21px;
+	float: left;
+}
+
+.structurBody .marginLeft20 {
+	margin-left: 20px;
+}
+.itemContent>span{
+	float:left;
+	width:340px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding-right:10px;}
+.itemLesson .itemContent>span{
+	width:300px}
+
+.itemContent p span{
+	margin-right:10px;}
+.itemContent p {
+	float:right;
+	width:163px;
+	}

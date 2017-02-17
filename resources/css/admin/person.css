@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+/*新建班级*/
+.newClass .infoBox{
+	padding-bottom: 30px;
+	background: #FFFFFF;
+
+	}
+.listBox {
+    width: 740px;
+    margin: 10px auto;
+    margin: 20px auto;
+    position: relative;
+}
+.listBox .ipt {
+    width: 632px;
+    height: 29px;
+    border: 1px solid #CCCCCC;
+}
+.listBox>span {
+    font-size: 16px;
+    color: #999999;
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+
+.listBox label.cur {
+    color: #00a8ec;
+    background: #00a8ec;
+    color: #FFFFFF;
+    padding: 5px;
+}
+.listBox label {
+    display: inline-block;
+    text-align: center;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.bgYellow {
+    color: #f9b728;
+}
+.importuser:hover{
+	color:#F3F;}
+
+
+.listBox label.selectuser{
+	margin-right:20px;}
+.listBox label i{
+	margin-right:4px;}
+
+
+

@@ -1,0 +1,280 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*header*/
+.header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	min-width: 1100px;
+	height: 57px;
+	background: #1A1A1A;
+	border-bottom: 3px solid #F9B728;
+	font-family: "Microsoft YaHei", "微软雅黑";
+	z-index: 1;
+}
+
+.headerbox {
+	width: 1100px;
+	height: 57px;
+	margin: 0 auto;
+	background: #1A1A1A;
+}
+
+.headerlogobox {
+	min-width: 250px;
+	height: 57px;
+	float: left;
+}
+
+.headerlogo {
+	width: 70px;
+	height: 52px;
+	float: left;
+	padding-top:2px;
+	padding-left: 10px;
+	
+}
+
+.headerlogobox p {
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-left: 10px;
+	float: left;
+	line-height:57px;
+	cursor:pointer;
+}
+
+.headernavbox {
+	height: 57px;
+	float: left;
+	margin-left: 20px;
+	display: _inline;
+}
+
+.headernavbox a {
+	width: 120px;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 57px;
+	margin-right: 15px;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	position: relative;
+}
+
+.headernavbox a.navact {
+	color: rgb(5, 5, 5);
+	background: rgb(249, 183, 40);
+	
+}
+
+.headernavbox a:hover {
+	background-color: #F9B728;
+	color: #050505;
+}
+
+.headernavbox a span {
+	color: #f92727;
+}
+
+.loginbox {
+	height: 57px;
+	float: right;
+	position: relative;
+}
+
+.tx {
+	width: 37px;
+	height: 37px;
+	border-radius: 20px;
+	float: left;
+	overflow: hidden;
+	margin-top: 9px;
+	margin-right: 6px;
+	position: relative;
+}
+.tx .photoImg{
+	width:40px;
+	height:40px;}
+.tx img{
+	position: absolute;
+	top: -2px;
+	left:-2px;
+}
+.txtitle {
+	color: #FFFFFF;
+	float: right;
+	cursor: pointer;
+	position: relative;
+	line-height: 57px;
+	padding-right:15px;
+	max-width: 55px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.txtitle em {
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 0px;
+	top: 28px;
+	border-top: 5px solid #fff;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid transparent;
+}
+
+.loginlist {
+	position: absolute;
+	right: -30px;
+	top: 50px;
+	display: none;
+	padding: 5px 15px;
+	border: 1px solid #e6e6e6;
+	border-radius: 3px;
+	background: #fff;
+	z-index: 4;
+}
+.onStuBox{ 
+	width: 105px;
+	text-align: center; }
+.loginlist em {
+	display: block;
+	position: absolute;
+	right: 28px;
+	top: -14px;
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid #fff;
+}
+
+.loginlist p {
+	line-height: 34px;
+    
+	 
+}
+.logout i{
+	margin-right:2px;
+	vertical-align:initial;
+	}
+.loginlist p a {
+	color: #161616;
+   	 max-width: 105px;
+    	overflow: hidden;
+    	display: block;
+    	white-space: nowrap;
+   	 text-overflow: ellipsis;
+   	 font-size: 14px;
+}
+/*left*/
+.sidebar {
+	float: left;
+	width: 188px;
+	background: #fcfcfc;
+	padding: 10px 30px 40px;
+	margin-top: 70px;
+
+}
+
+.active {
+	background: #ededed;
+}
+
+.sidebar .allcatagory {
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #f9b728;
+	font-size: 18px;
+}
+
+.sidebar .allcatagory a {
+	color: #000000;
+	padding-left:4px;
+	vertical-align: top;
+}
+
+.sidebar .firstcatory {
+	font-size: 16px;
+	position: relative;
+}
+.sidebar .firstcatory .firstcatoryBox{
+	border-bottom: 1px solid #f0f0f0;
+	cursor: pointer;
+	
+}
+
+.sidebar .firstcatory .firstcatoryBox i{
+	float:left;
+	color: #f9b728;
+	line-height:50px;
+	margin-left:6px;
+}
+.sidebar .firstcatory .firstcatoryBox a.links{
+	float:left;
+	padding-left: 7px;
+	color: #666666;
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+
+}
+.sidebar #sidebarUl li{
+	margin-bottom:5px;}
+.sidebar #sidebarUl li:hover{
+	background-color:#ededed;
+	}
+.sidebar .secondcatory a.secondLinks {
+	font-size: 16px;
+	background: url(../../imgs/public/point.png) no-repeat 36px center;
+}
+.sidebar .secondcatory a {
+	color: #666666;
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 47px;
+}
+/*footer*/
+.footer {
+	position: absolute; 
+    left: 0;
+	bottom:0;
+	width: 100%;
+	min-width: 1100px;
+	height: 100px;
+	border-top: 3px solid #F9B728;
+	font-family: "Microsoft YaHei", "微软雅黑";
+	background: #1A1A1A;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+.footerbox {
+	width: 1100px;
+	height: 97px;
+	background: #1A1A1A;
+	margin: 0 auto;
+}
+
+.copy {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.cYellow {
+	color: #f9b728;
+	margin-bottom: 20px;
+	padding-top:20px;
+}
+.cYellow span{
+	display:inline-block;
+	padding-left:15px;
+	color: rgb(116, 199, 9);}
+

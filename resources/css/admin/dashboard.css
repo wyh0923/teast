@@ -1,0 +1,233 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*系统状态-节点状态*/
+.table{
+	margin-top:20px;
+	border-bottom: 5px solid #F6F7FB; 
+	border-top: 5px solid #F6F7FB;
+	-webkit-border-bottom: 5px solid #F6F7FB;
+	-moz-border-bottom: 5px solid #F6F7FB;
+}
+.table div h3{
+	height:40px;
+	line-height:40px;
+	border-bottom:2px solid #EDF1F2;
+	text-indent:10px;
+	font-weight:bold;
+	color:#333333;
+	font-size:14px;
+}
+.table .h-table table{
+	margin-top:0;
+	color:#999;
+	border:none;
+}
+.h-table table tr th{
+	border-right:none;
+	}
+.h-table td {
+	font-size:12px;
+    height: 52px;
+	border-right:none;
+	padding:0 1%;
+}
+.h-table tbody td{
+	font-size:13.33px;
+	white-space: normal;
+	text-overflow:auto;
+	}
+.h-table tbody span.width70{
+	display: inline-block;
+	margin: 1px 0;
+	text-align: left;
+	min-width:55%;
+	float: right;
+	
+
+}
+.h-table tbody span.width30{
+	display: inline-block;
+	margin: 1px 0;
+	text-align: right;
+	float: right;
+
+}
+.h-etable tbody td{
+	font-size:12px;
+	}
+
+.h-btmborder{
+	border-bottom: 1px solid #f9b627;
+}
+.h-table table tbody tr td:nth-child(2) {
+	color: #56bee5;
+	}
+.h-btmborder th{
+	 height:37px;
+	 line-height:37px;
+	 font-size:13.5px;
+	 }
+/*平台内各模块状态*/
+.table-module {
+    height: auto;
+    padding: 0;
+    background-color: #fff;
+    table-layout: fixed;
+    margin-top:20px;
+}
+
+
+.cLass.h_cLass {
+    height: auto;
+    border-bottom: none;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.h_cLass h4 {
+    border-top: 5px solid #f6f7fb;
+}
+.cLass h4 {
+    height: 35px;
+    line-height: 35px;
+    text-indent: 10px;
+    border-bottom: 2px solid #F6F7FB;
+    font-size: 14px;
+    font-weight: bold;
+}
+.h-restart {
+    width: 33px;
+    height: 36px;
+    background-image: url(../../imgs/admin/restart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 33px 31px;
+    display: block;
+    float: left;
+    margin-left: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+/*当前服务器状态and登陆日志*/
+.tongji {
+    border-bottom: 6px solid #F6F7FB;
+	border-top: 6px solid #F6F7FB;
+	height: 250px;
+
+}
+
+.tongji div h4 {
+
+    height: 35px;
+    line-height: 35px;
+    text-indent: 10px;
+    border-bottom: 2px solid #F6F7FB;
+    font-size: 14px;
+    font-weight: bold;
+	color:black;
+}
+.leftTonj {
+	color: #999999;
+	float:left;
+}
+
+.rightTonj{ 
+    width:488px;
+    float:right; 
+    border-left: 6px solid #F6F7FB;
+	height:250px;}
+
+.event{
+
+	height:170px;
+	margin-left: 2px;
+	
+}
+.event tr{
+	 border:none;
+	 }
+.event th{
+	height: 32px;
+	line-height: 31px;
+	border:none;
+	border-bottom: 1px solid #f8b727;
+	color: #666666;
+	background-color:#FFF;
+}
+.event td{
+	text-align: center;
+	height: 42px;
+	line-height:42px;
+	color: #999999;
+	border:none;
+	border-bottom: 1px solid #e6e6e6;
+	background-color:#FFF;
+	padding:0 1%;
+}
+
+.h-etable{
+	width: 100%;
+	margin:0;
+	border:none;
+}
+
+.h-stotal{
+	height: 54px;
+	line-height: 54px;
+}
+.h-statusicon{
+	width: 45px;
+	height: 54px;
+	background-position: center;
+	background-size: 45px 32px;
+	background-repeat: no-repeat;
+	background-image: url(../../imgs/admin/status.png);
+	float: left;
+	margin:0 12px;
+}
+.h-sp{
+	width: 330px;
+	height: 10px;
+	margin: 10px 5px 10px 0;
+	background-color: #e9f0f8;
+	border-radius: 10px;
+	position: relative;
+}
+.h-soccupy{
+	width: 40px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: #96c634;
+	float: left;
+	transition: width 300ms;
+	-moz-transition: width 300ms;
+	-webkit-transition: width 300ms;
+}
+.h-srate{
+	position: absolute;
+	top: -20px;
+	left: auto;
+	right: 10px;
+}
+
+.h-splate, .h-smomery, .h-scpu{
+	height: 24px;
+	line-height: 24px;
+}
+
+.h-btmborder{
+	border-bottom: 1px solid #f9b627;
+}
+
+.highcharts-axis{
+	display: none;
+}
+
+/*系统设置页码*/
+.rightTonj .newsPage{
+	width: 488px;
+	text-align:center;
+	margin-top:5px;}

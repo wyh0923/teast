@@ -1,0 +1,212 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.addTheoryChapter{
+	padding-top:30px;
+	margin-left:70px;}
+.addTheoryChapter .iptBox {
+    margin-bottom: 30px;
+    position: relative;
+}
+.addTheoryChapter .tit {
+    display: block;
+    width: 113px;
+    font-size: 16px;
+    color: #666666;
+    text-align: right;
+    float: left;
+	line-height:28px;
+}
+#SectionTypediv01{
+    margin-top: 20px;
+}
+#SectionTypediv01 .tit{
+    line-height: 20px
+}
+#SectionTypediv01 input.ipt{
+    width:90px; 
+    text-align: center;
+    margin-right: 5px;
+}
+.addTheoryChapter .iptBox .ipt {
+    width: 526px;
+    height: 29px;
+    border: 1px solid #CCCCCC;
+    float: left;
+    margin-top: -5px;
+    padding-left: 5px;
+}
+.addTheoryChapter .iptBox .multiTxt {
+    width: 524px;
+    height: 128px;
+    border: 1px solid #CCCCCC;
+    resize: none;
+}
+.addTheoryChapter .iptBox label {
+    padding: 2px 5px;
+    color: #666;
+}
+.addTheoryChapter .iptBox label.cur {
+    padding: 2px 5px;
+    background: #2b95da;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 29px;
+    border-radius: 3px;
+}
+.infoBox .iptBox .selectBox .selectInfoBox {
+    float: left;
+    width: 400px;
+    height: 27px;
+    border: none;
+}
+/*本页后两个上传*/
+
+.infoBox .iptBox .selectBox {
+    height: 28px;
+    border: 1px solid #CCCCCC;
+    float: left;
+}
+.infoBox .iptBox .selectBox .selectInfoBox {
+    float: left;
+    width: 402px;
+    height: 28px;
+    border: none;
+}
+.infoBox .iptBox .selectBox .selectBtn {
+    float: left;
+    display: block;
+    width: 33px;
+    height: 28px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    position: relative;
+}
+.infoBox .iptBox .selectBox .selectBtnIcon {
+    font-size: 16px;
+    color: #999;
+}
+.infoBox .iptBox .selectBox .selectBtn:hover {
+    background: #01a9eb;
+}
+
+.listBoxTable {
+    width: 710px;
+    position: relative;
+	padding-top:6px
+}
+
+.subjectTitle {
+    font-size: 16px;
+    color: #999999;
+    float: left;
+    line-height: 29px;
+	margin-top:34px;
+}
+.changeBtn {
+    display: block;
+    float: right;
+    width: 89px;
+    height: 29px;
+    border-radius: 3px;
+    background: #2b65da;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 29px;
+	margin-left:20px;
+margin-top:34px;
+}
+.addTheoryChapter .listBoxTable table{
+	margin-top:0;}
+.iptBox label{
+	cursor:pointer;
+	text-align:center;}
+/*新增题目弹窗*/
+table input.score{
+    border: none;
+    width: 80px;
+    text-align: center;
+
+}
+.addquestionBox .anserBox input{
+    float: left;
+}
+.addquestionBox .anserBox input[type="radio"],.addquestionBox .anserBox input[type="checkbox"]{
+    margin-top: 6px;
+}
+.addquestionBox .anserBox p{
+    float: left;
+}
+.addquestionBox .anserBox i{
+    margin:0 !important;
+    line-height: 24px !important;
+}
+.addquestionBox .anserBox a{
+    float: left;
+    margin-left: 10px;
+    color:black;
+    
+}
+.addquestionBox .anserBox .danX{
+    line-height: 24px;
+}
+.adderrormsg2{
+        width: 710px;
+    position: relative;
+}
+.daoNews{
+    width: 500px;
+    float: left;
+    overflow: hidden;
+    margin-left:120px;
+    color: red;
+    font-size: 13.33px;
+    position: relative;
+    padding-right: 24px;
+    padding-top:10px;
+    margin-top: 10px;
+
+}
+.daoNews2{
+    width: 420px;
+    margin-left:105px;
+}
+.daoNews i{
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    right: 6px;
+    cursor: pointer;
+
+}
+.newStarBtn{
+    font-size: 17px;
+    display: block;
+    position:absolute;
+    left:42px;
+    top: 30px;
+    border: 2px solid #dedede;
+    width: 20px;
+    height: 20px;
+    text-align:center;
+    border-radius: 50%;
+    line-height: 20px;
+    color: #dedede;
+    cursor: pointer;
+}
+.newStarBtn2{
+    left:53px;
+}
+.newStarBtn:hover{
+    border: 2px solid #666;
+    color: #666;
+}
+.resourceurl {
+    position: relative;
+}
+.resourceurl a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}

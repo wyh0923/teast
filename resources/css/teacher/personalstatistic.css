@@ -1,0 +1,155 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.personShuJu{
+	padding-bottom:20px;}
+.personShuJu select,.personShuJu input,.personShuJu button {
+    border-radius: 5px;
+    border: 1px solid #92BFED;
+	background-color:#FFF}
+.wind-rose{
+	padding-bottom:20px;
+	border-bottom: 6px solid #F6F7FB;}
+.wind-rose h4{
+	text-align:center;
+	height:35px;
+	line-height:35px;
+	border-top: 6px solid #F6F7FB;
+	border-bottom: 2px solid #F6F7FB;
+	font-size: 14px;
+	position: relative;
+	margin:20px 0;
+	
+	}
+.wind-rose h4 p{
+	float:left;
+	}
+.wind-rose .titleName{
+	width:190px;
+	padding-left:10px;
+	text-align:left;
+	font-weight: bold;}
+.wind-rose h4 p:last-child{
+	width:628px;
+	font-weight:normal;
+    color: #666666;}
+.wind-rose .wind-rose-list{
+	float:left;
+	position: relative;
+	min-height:430px }
+.wind-rose table{
+	width:190px;
+	margin-top:0;}
+.wind-rose table td{
+	height:30px;
+	font-size:12px;}
+.wind-rose table thead .selectNews input{
+	width: 120px;
+    background-color: #FFF;
+	height:22px;
+	line-height:22px;
+	float:right;
+	margin-right:8px;}
+.wind-rose table thead .selectNews button{
+	float:right;
+	background-color: #FFF;
+    color: black;
+	width: 45px;
+    height: 22px;
+	margin-right:5px;}
+
+.wind-rose table thead .selectNews button:hover{
+	background-color:#FAB529;
+	}
+.wind-rose table tbody tr td:first-child:hover{
+	background-color:#FAFAFA;
+	cursor: pointer;
+	color:black;
+}
+.wind-rose table tbody tr.clicked td {
+    background-color: #EEFAFF;
+    color: #0080C0;
+    font-weight: bold;
+}
+.wind-rose .posBottom{
+	position: absolute;;
+	bottom: 0;
+}
+.wind-rose .juBuPage{
+	margin-top:10px;
+	width:190px;
+	position: relative;
+	}
+.wind-rose .juBuPage ul{
+	width: 100%;
+	text-align: center;
+}
+.wind-rose .juBuPage p{
+	margin: 0;
+	position: absolute;
+	top: 1px;
+}
+.wind-rose .juBuPage .prev{
+	left:5px;
+}
+.wind-rose .juBuPage .next{
+	right:5px;
+}
+.wind-rose .containerrose{
+    float:right;
+	width:610px;
+	
+	}
+/*classtop10.css*/
+.classTop{
+	border-bottom: 6px solid #F6F7FB;
+	padding-bottom:20px;}
+.classTop h4{
+	line-height:35px;
+	font-size:14px;
+	font-weight:normal;
+	margin-bottom:20px;
+	border-bottom: 2px solid #F6F7FB;
+	padding:10px 0 0 10px;}
+.classTop h4 p{
+	float:left;
+	margin-right:30px;}
+.classTop h4 .topName{
+	font-weight:bold;
+	width:190px;
+	margin-right:0;}
+.classTop h4 p select{
+	height: 25px;
+    width: 80px;
+    margin-left: 5px;}
+.classTop h4 p input{
+	 height: 23px;
+	margin:0 5px;
+	}
+.classTop h4 p input[type="number"]{
+	width: 40px;
+}
+.classTop h4 p input[type="button"]{
+	width:50px;}
+.classTop h4 p input[type="button"]:hover{
+	background-color:#FAB529;
+	}
+/*课程和试卷统计.css*/
+.studyTop{
+	float:left;
+	width:412px;
+	border-bottom:6px solid #F6F7FB;
+	padding-bottom:20px;}
+.studyTop h4{
+	 height: 35px;
+    line-height: 35px;
+    text-indent: 10px;
+    border-bottom: 2px solid #F6F7FB;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+	padding:10px 0 0 10px;}
+div.studyTop:first-child{
+	border-right:6px solid #F6F7FB}
+.highcharts-container{
+	margin-top: 15px;
+}

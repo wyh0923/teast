@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>知识体系-课程管理-知识体系结构列表</title>
+		<link href="css/sjksjg.css" type="text/css" rel="stylesheet" />
+		<link href="css/addstudent.css" type="text/css" rel="stylesheet" />
+		<link href="css/animate.min.css" type="text/css" rel="stylesheet" />
+		<link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+		<script src="js/jquery-1.11.0.js"></script>
+		<script src="js/dg.js"></script>
+		<script src="js/prompt.js"></script>
+		<script>
+			window.onload = function() {
+				setPosi("addPopBox");
+			}
+		</script>
+	</head>
+
+	<body>
+		<div class="content">
+		</div>
+
+		<div class="maskBox" id="maskBox"></div>
+		<div class="addPopBox animated" id="addPopBox">
+			<form action="" method="post">
+				<h3 class="addTitle">编辑学员信息</h2>
+		     <div class="infoBox">
+			
+			<div class="iptBox">
+				<p>学员信息</p>
+				<span>学员编号：</span>
+				<input type="text" placeholder="123456" value="" class="ipt" readonly="readonly"/>
+			</div>
+			<div class="iptBox">
+				<span>姓名：</span>
+				<input type="text" value="" class="ipt"/>
+			</div>
+			<div class="iptBox">
+				<span>性别：</span>
+				<input type="radio">男
+				<input type="radio">女
+			</div>
+			<div class="iptBox">
+				<span>单位：</span>
+				<input type="text" value="" class="ipt"/>
+			</div>
+			<div class="iptBox">
+				<span>邮编：</span>
+				<input type="text" value="" class="ipt"/>
+			</div>
+			<div class="iptBox">
+				<span>电话：</span>
+				<input type="text" value="" class="ipt"/>
+			</div>
+			<div class="iptBox">
+				<span>其他：</span>
+				<input type="text" value="" class="ipt"/>
+			</div>
+			<div class="iptBox btnBox">
+				<a href=""  class="inputBtn">保存</a>
+				<a href="javascript:;" class="backBtn" id="backBtn" onclick="fnHide('addPopBox','fadeInDown','fadeOutUp');">关闭</a>
+			</div>
+		</div>
+	</form>
+           </div>
+	</body>
+</html>

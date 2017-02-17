@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+.xiafaBox{
+	width:602px;
+	margin-left:29px;
+	}
+.xiafaBox .xiafa{
+	width: 600px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+	background-color:#FFF;
+	margin-bottom:30px;
+	}
+.xiafaBox .xiafa span{
+	display:inline-block;
+	width:95px;
+	font-size: 16px;
+    color: #999999;
+	text-align:right;
+	padding:30px 0;
+	}
+.xiafaBox .xiafa span.moreMagrn{
+	width:101px;}
+.xiafaBox .xiafa .classTitle{
+	width: 473px;
+	height: 29px;
+    border: 1px solid #CCCCCC;}
+
+.popSearch-2 input{
+	border:none !important;
+	height:38px !important;
+	padding:0 !important;
+	float:right;}
+.popSearch-2 input.btn{
+	width:95px;
+	background: #ff8400;
+    color: #FFF;
+	font-size: 16px;
+    cursor: pointer;
+	}
+.xiafa .fisrtC{
+	overflow:hidden;
+	margin:20px 0;}
+.xiafa .fisrtC input{
+	float:left;}
+.xiafa .fisrtC span{
+	float:left;
+	padding:0;}
+.xiafa .miaoShu{
+	width:473px;
+	border: 1px solid #CCCCCC;
+	padding: 6px 4px;
+	height:80px;
+	float:left}
+.titleTab h3{
+	width: 50%;
+	min-width:300px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    color: #fff;
+    background: #8f8f8f;
+    float: left;
+    position: relative;
+	margin-bottom:20px;
+	z-index:10;
+	cursor:pointer
+	}
+.titleTab h3.activeYellow{
+   background: #ff8400;
+	}
+.titleTab h3 i{
+	position:absolute;
+	top:40px;
+	left:50%;
+	margin-left:-5px;
+	z-index:1;
+	
+	}
+.titleTab h3.activeYellow{
+   background: #ff8400;
+	}
+.titleTab h3.activeYellow i{
+	color:#ff8400;}
+.xiafaBox .xiafa ul{
+	padding-bottom:30px;}
+.xiafaBox .xiafa .biao .txtBoxLi li{
+	margin:5px 20px 0;
+	padding:10px 0 6px;
+	border-bottom:1px solid #cccccc;
+	position:relative}	
+.xiafaBox .xiafa .biao .allChec{
+	margin:5px 20px 0;
+	padding:10px 0 6px;
+	border-bottom:1px solid #cccccc;
+	position:relative;
+	background-color:#f3f3f3;
+	line-height:30px; }	
+.xiafaBox .xiafa .biao input{
+	vertical-align:text-bottom;
+	margin-right:8px;}
+.xiafaBox .xiafa .biao li:hover{
+	background-color:#f3f3f3;
+	color:#ff8400
+	}
+.btnBox a.xiafaBtn{
+	width:420px;
+	height:50px;
+	font-size:20px;
+	line-height:50px;}
+.biao label{
+	width:95%;
+	height:100%;
+	position:absolute;
+	left:21px;
+	top:0;
+	opacity:0;}
+.xuanzhong{
+	color:#ff8400 !important;
+	background-color:#fafafa}

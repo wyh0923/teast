@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.virtualRight .search{
+	padding-top:20px;
+	width:830px;
+	}
+.virtualRight .search h5{
+	float:left;
+	font-size:15px;
+	color:#999;
+	font-weight: normal;
+	margin-right:20px;
+	padding-left:10px;
+}
+.virtualRight .search .virJiLu{
+	float:left;
+	font-size: 15px;
+    color: #999;
+}
+
+.virtualRight .search .virJiLu span span.marCf{
+	margin-right:5px;}
+
+.virtualRight .search .virPages{
+	float:left;
+	text-align:center;
+	margin-left:30px;
+	}
+.virtualRight .search .searchGo{
+	float: right;
+	line-height: 24px;
+	border-bottom: 1px solid #eee;}
+.virtualRight .search .searchGo input{
+	border: none;
+    text-indent: 5px;
+    outline: none;
+	}
+.virtualRight .search .searchGo a{
+	color:#000;
+	}
+table.virtuaTable tbody tr td:last-child span{
+	margin:0 3px;}
+table.virtuaTable tbody tr td img{
+	height:22px;
+	max-width:24px;
+	cursor: pointer
+	}

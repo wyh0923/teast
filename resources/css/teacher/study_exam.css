@@ -1,0 +1,162 @@
+﻿@charset "utf-8";
+/* CSS Document */
+table p.tongji {
+    text-align: center;
+    color: #00a8ec;
+}
+table td .proDiv {
+    margin: 4px auto 5px;
+    width: 78px;
+    height: 10px;
+    border-radius: 3px;
+    background: #bebebe;
+    border-radius: 3px;
+}
+table td .proDiv .pro {
+    width: 30%;
+    height: 10px;
+    background: #2b95da;
+    z-index: 998;
+    border-radius: 3px;
+}
+.endspan {
+    display: inline-block;
+    color: #CCC;
+}
+/*课程学习详情*/
+.infoTask {
+    margin-top: 20px;
+	padding-bottom:30px;
+	border-bottom:1px solid #cccccc;
+}
+.infotaskImg{
+	float:left;}
+.infotaskImg img{
+	width:392px;
+	height:244px; 
+	margin-top:10px;
+	display:block;
+	}
+.infotaskPoint{
+	float:left;
+	color: #666666;
+	padding:28px 0 0 50px;
+	max-width:380px;}
+.exInfoPoint{
+	max-width:212px;
+	padding:68px 0 0 0;
+	float:right;
+}
+.infotaskPoint .infoTitle{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: normal;
+	}
+.infotaskPoint p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.infotaskPoint p span {
+    color: #999999;
+    word-break: break-all;
+}
+.infotaskPoint .btnBox a{
+	width: 90px;
+    height: 30px;
+	font-size:14px;
+	line-height:30px;}
+.toolTask {
+    margin-top: 20px;
+}
+.infotaskPoint .taskbtn a:last-child{
+	background-color:#C45F46;
+	}
+.toolTask .changetop a{
+	margin:0 8px;}
+.toolTask .changetop a:first-child{
+	margin-left:0;}	
+.toolTask a {
+    color: #666;
+}
+.toolTask p {
+    float: left;
+    font-size: 18px;
+    color: #666666;
+}
+table.studytaskList{
+	 margin-top:10px;}
+
+	 
+table.studytaskList td .prBox {
+    width: 170px;
+    height: 20px;
+    background: #bebebe;
+    position: relative;
+    margin: 0 auto;
+	border-radius:4px;
+}
+table.studytaskList td .prBox .pro {
+    width: 80%;
+    height: 20px;
+    background: #2b95da;
+    position: absolute;
+    left: 0;
+    top: 0;
+	border-radius:4px;
+}
+
+table.studytaskList td .prBox p {
+    width: 180px;
+    text-align: center;
+    line-height: 20px;
+    color: #FFFFFF;
+    position: absolute;
+}
+table a.studentExam{
+	color:#09F;
+	}
+table a.studentExam:hover{
+	color:#06F;
+	}	
+/*top10.css*/
+.changetop a:hover{
+	color:#2B95DA;}
+#monk{
+	margin-top:15px;
+	padding-top:10px;
+	border-top:1px solid #f9b728;}
+.rankdiv{
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #efefef;}
+.rankdiv:last-child{
+	border:none;}
+.rankdiv .desc{
+	color:#666666;
+	line-height:24px;
+	padding-top:5px;}
+.rankdiv .wholeBg{
+	float:left;
+	width:730px;
+	background-color: #e5e5e5;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    height: 10px;
+    margin-bottom: 20px;
+	margin-top:5px;
+
+  }
+.rankdiv .wholeBg .progress-bar{
+	font-size:12px;
+	background-color: #a2d200;
+	width:20%;
+	height:10px;
+	border-radius: 4px;
+	}
+.rankdiv .percent{
+	font-weight: 600;
+    float: right;
+    font-size: 12px;
+    color: #666;
+	height:20px;
+	line-height:20px;}

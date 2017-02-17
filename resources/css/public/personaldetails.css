@@ -1,0 +1,203 @@
+﻿
+
+/*addclass*/
+.personcontent {
+	width:560px;
+	margin:0 auto;
+	
+}
+.personcontent h3.courseName {
+    color: #333;
+    font-size: 20px;
+	border-bottom:1px solid #dbd7db;
+	text-align:center;
+	font-weight:normal;
+	padding:20PX 0 10px;
+}
+.personcontent .personImg{
+	margin-top: 35px;
+    text-align: center;
+}
+.personcontent .per-img {
+	width:70px;
+	height:70px;
+    border-radius: 50%;
+}
+.personcontent .fontsize {
+    margin-top: 10px;
+}
+.personcontent .personbtn {
+    background-color: #f9b627;
+    border: 0 none;
+    border-radius: 5px;
+    color: white;
+    height: 25px;
+    margin-top: 15px;
+    width: 75px;
+	cursor:pointer;
+}
+.personcontent .moxie-shim{
+	position: absolute; 
+	top: 118px; 
+	left: 378px; 
+	width: 75px; 
+	height: 25px; 
+	overflow: hidden; 
+	z-index: 0;
+}
+.personcontent .per-file{
+	font-size: 999px; 
+	opacity: 0; 
+	position: absolute; 
+	top: 0px; 
+	left: 0px;
+	width: 100%; 
+	height: 100%;
+}
+.personcontent .personforms {
+    margin: 0 auto;
+    width: 560px;
+}
+.personcontent .personinput {
+    height: 38px;
+    margin-top: 15px;
+    width: 100%;
+}
+.personcontent .personinput span {
+    color: #999999;
+    height: 38px;
+    line-height: 38px;
+    margin-left: 35px;
+    text-align: right;
+    width: 80px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.personforms .ipt {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 38px;
+    padding: 0 0 0 15px;
+    width: 337px;
+}
+.personcontent .btnBox {
+	width:370px;
+	margin-left:125px;
+	}
+.personcontent .smallBtn a{
+	width: 96px;
+    height: 37px;
+    border-radius: 5px;
+	margin:8px 20px;
+}
+.personcontent .keyMargin{
+	margin-top:40px;
+	}
+.keyMargin .personinput{
+	margin-top:30px;
+	}
+.personcontent .adderrormsg {
+	padding-left:40px;
+	margin:10px 0 -10px;
+}
+/*学生雷达*/
+.studentTitle{
+	clear: both;
+    width: 100%;
+    height: 88px;
+    line-height: 88px;
+    font-size: 18px;
+	color: #666;
+	}
+.mapsBox{
+	padding-bottom:80px;
+	border:1px solid #cccccc;
+	margin-bottom:30px;
+	min-height:200px;
+    width:828px }
+.mapsBox .echartitle{
+	text-align: center;
+    background: #F3F3F3;
+    font-weight: 100;
+    height: 46px;
+    line-height: 46px;
+	position:relative;
+	font-size:14px;}
+.mapsBox .maps{
+	position:relative;
+	}
+.mapsBox .maps .posMaps{
+	float:left;
+	width:620px;
+	height:180px;
+	position:absolute;
+	top:50%;
+	margin-top:-50px;
+	
+	}
+
+.mapsBox .maps .table_page{
+	float:right;
+	width:203px;
+	margin-right:5px;
+
+	}
+.mapsBox .maps table.bcg_table{
+	
+	margin-top: 10px;
+	}
+.mapsBox .maps table.bcg_table td{
+	height:26px;}
+.mapsBox .maps table.bcg_table .table_title{
+	    border-top: 2px solid #00a8ec;
+		margin-top:0px;}
+.mapsBox .maps .table_page .juBuPage{
+	margin-left:20px;
+	margin-top:20px;}
+.goToThere{
+    position: absolute;
+    color: #d3d3d3;
+    font-size: 34px;
+    border:2px solid #d3d3d3;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+    z-index: 999;
+}
+.goToThere i{
+    line-height: 42px;
+}
+/*.left_icon{
+    left:20%;
+}
+.right_icon{
+	left:80%;
+}*/
+.goToThere2:hover{
+    color: #666;
+    border:2px solid #666;
+    cursor: pointer;
+}
+.mapsPars{
+    float: left;
+    
+}
+.flyTo{
+    width:830px; 
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; 
+}
+.lookHere{
+    overflow: hidden;
+    position: relative;
+    height: 700px;
+
+}
+.mapsPars .mapsBox:last-child{
+    margin-bottom: 0;
+}

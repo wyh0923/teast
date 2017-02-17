@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+.select_info{
+	width: 500px;
+    margin: 0 auto;
+    position: relative;
+    font-family: "Microsoft YaHei", "微软雅黑";
+	}
+.select_info .form p{
+	height:45px;
+	margin:10px auto;
+	}
+.select_info .form p span {
+    width: 100px;
+    display: inline-block;
+    text-align: left;
+    font-size: 16px;
+    color: #999999;	
+	}
+.select_info .form p input {
+    width: 334px;
+    height: 32px;
+    border-radius: 3px;
+    border: 1px solid #E6E6E6;
+    text-indent: 5px;
+    }
+.select_info h4{	
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #999999;
+	}
+.select_info table tr td {
+    height: 55px;
+	color:#999;
+} 

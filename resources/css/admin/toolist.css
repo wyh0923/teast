@@ -1,0 +1,106 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.ctflistTable{
+	margin-top:0;}
+.ctflistTable td,.forToolist td{
+	height: 40px;
+    border: 1px solid #eaf0f7;
+
+	}
+.dropdown {
+    position: relative;
+	}
+.dropdown .treetable{
+	color:#337ab7;}
+.dropdown-menu {
+	display:none;
+    position: absolute;
+    top:33px;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	font-size: 16px;
+	text-align: center;
+	margin-left:120px;
+}
+
+
+.forToolist tr th {
+	height:40px;
+	color:black;
+	}
+.forToolist tr td{
+	line-height:46px;
+	height:46px;
+	}
+.forToolist tr td:last-child{
+
+	overflow:visible;
+	}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+/*题目分类*/
+.forQuestion .firstOnce{
+    background-color: #f5f5f5;
+
+	}
+.forQuestion .secondOnce{
+    background-color: #fff;
+
+	}
+.forQuestion tbody tr td:first-child{
+	text-align:left;
+	padding-right:6%}
+.forQuestion tbody tr td:first-child a{
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;}
+.forQuestion .firstOnce td a.queClass{
+	margin-left:43.5%;
+	padding-left:2.5%}
+.forQuestion .secondOnce td a.queClass{
+	margin-left:50%;
+}
+/*.forQuestion .thirdOnce td a.queClass{
+	width:60%;
+	margin-left:40%}*/
+.forQuestion tbody tr td.noSecoend{
+	text-align:center;
+	padding: 0.6% 1%;
+	
+	}
+.forQuestion tbody tr td.noSecoend a.queClass{
+	width:100%;
+	margin:0;
+	}
+
+a.tableUp{
+	background: url(../../imgs/public/table_up.png) no-repeat left 50%;}
+a.tableDown{
+	background:url(../../imgs/public/table_down.png) no-repeat left  50%;}
+
+
+.forQuestion .dropdown-menu{
+	margin-left:45px;}
+
+/*题目分类*/

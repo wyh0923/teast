@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contentInner {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.contentInner .addItem {
+    margin-bottom: 20px;
+    position: relative;
+}
+textarea.addTxt {
+	width:432px;
+	height:140px;
+}
+
+.contentInner .addTit {
+	float: left;
+    margin:0 5px;
+    width: 130px;
+    font-size: 16px;
+    color: #666666;
+    text-align: right;
+    line-height: 29px;
+}
+.addItem label {
+	float: left;
+	padding: 0;
+	padding: 2px 8px;
+	line-height: 29px;
+	border-radius: 3px;
+	cursor: pointer;
+	}
+.addItem label span {
+    padding: 2px 10px;
+}
+.tcur {
+   background: #00a8ec;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+.filterList {
+    display: inline-block;
+    width: 432px;
+}
+.contentInner .addItem .vmtplname {
+    width: 432px;
+    border: 1px solid #CCCCCC;
+    height: 29px;
+}
+
+.addItem.btnBox {
+	width:730px
+	}
+.width_20{
+	width:200px !important;}

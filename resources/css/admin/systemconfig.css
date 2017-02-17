@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+.sysRight div{
+	width:390px;
+	margin-right:15px;
+	border:1px solid #eee;
+	margin-top:15px;
+	padding-bottom:20px;
+	float:left;
+	position:relative;
+	color:#666666;
+}
+.sysRight div h5{
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	background:#eee;
+	font-size:16px;
+}
+.sysRight div p{
+	height:40px;
+	line-height:40px;
+	margin-top:8px; 
+}
+.sysRight div .adderrormsg{
+	line-height: 20px;
+	padding:0 12px 6px
+}
+.sysRight div p span{
+	width:88px;
+	text-align:right;
+	color:#999;
+	font-size:14px;
+	display:inline-block;
+}
+.sysRight div p input{
+	width:259px;
+	height:31px;
+	text-indent:5px;
+	border:1px solid #eee;
+	font-size:13px;
+}
+
+
+.sysRight div h6{
+	color:#F55B5B;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	font-size:13px;
+}
+.sysRight div h1{
+	width:96px;
+	height:37px;
+	color:#fff;
+	background:#58BE8E;
+	line-height:37px;
+	text-align:center;
+	font-size:14px;
+	cursor:pointer;
+	border-radius:5px;
+	margin:5px auto;
+}
+.sysRight div h1:hover{
+	background:#2DCC70;
+}
+.sysRight div h3{
+	height:100px;
+	line-height:100px;
+	text-align:center;
+	color:#999;
+    font-size: 14px;
+    font-weight: normal;
+}
+.sysRight div h3.height60{
+	height:70px;
+	line-height:80px;}
+
+.bookLink{
+	color:#33F;
+	padding:1px 4px;
+	border-bottom:1px solid #33F;
+	position:absolute;
+	right:20px;
+	bottom:26px;
+	font-size:12px;}
+/*tanchuang*/
+input.xuanLei{
+	float:left;
+	margin-top:8px;}
+/*tanchuang ½ø²½Ìõ*/
+.box-input-cen .progress{
+	width:525px;
+	height:25px;
+	background-color:#999999;
+	margin:30px 0px 30px 20px;
+	position:relative;
+}
+.box-input-cen .progress .progress-inner{
+	width:40%;
+	background-color:#FF8401;
+	height:25px;}
+.box-input-cen .progress .txtNumber{
+	position:absolute;
+	width:525px;
+	height:25px;
+	top:0;
+	left:0;
+	line-height:25px;
+	color:#FFF;
+	text-align:center;}

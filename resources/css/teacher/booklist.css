@@ -1,0 +1,160 @@
+
+
+/*booklist*/
+.tasklist {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 20px 0 25px;
+}
+.taskimg {
+    cursor: pointer;
+    float: left;
+    height: 155px;
+    overflow: hidden;
+    position: relative;
+    width: 250px;
+}
+.taskimg img {
+    height: 155px;
+    vertical-align: middle;
+    width: 250px;
+}
+.taskimg img:hover {
+    transform: scale(1.2);
+    transition: all 1s ease 0s;
+}
+.taskinfo {
+    float: right;
+    width: 565px;
+	position:relative;
+	height:155px;
+}
+.taskName {
+    font-size: 16px;
+}
+.taskinfoabout {
+    color: #666666;
+    margin-top: 15px;
+}
+.taskinfoabout .finshTime{
+	color: #C45F46;
+    font-size: 14px;
+	padding-left:20px;
+	}
+.taskinfo p {
+    color: #666666;
+    font-size: 12px;
+    height: 32px;
+    margin-top: 15px;
+}
+.taskmore{
+	height:27px;
+	line-height:27px;
+	position: absolute;
+    bottom: 0;
+    width: 100%;}
+	
+.taskmore span {
+    color: #59be8e;
+	font-size: 12px;
+}
+.taskmore>span{
+	float:left;
+	margin-right:16px;}
+.taskmore>span>i{
+	margin-right:3px;}
+.taskmore .nums{
+	float:left;
+	margin-left:10px;
+	font-size:14px;}
+.taskmore .nums .ctaskprogr{
+	float:left;
+	width:95px;
+	background: #d4d4d4;
+    border-radius: 3px;
+	height:13px;
+	margin-top:7px;
+	margin-right:10px;
+}
+.taskmore .nums .ctaskprogr .taskpro{
+	height: 13px;
+    background: #2c97df;
+    border-radius: 3px;
+	width:20%;
+	display:block;
+}
+
+.taskmore a {
+    border-radius: 3px;
+    color: #fff;
+	float:right;
+    height: 27px;
+    line-height: 27px;
+    margin-left: 10px;
+    text-align: center;
+    width: 89px;
+}
+.taskmore a i{
+	margin-right:4px;}
+.btnRelease {
+    background: #2c97df;
+}
+
+
+.taskName span a{
+    color: #666666;
+    display: inline-block;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.taskName span a.ArchTag{
+    cursor:default;
+}
+.taskName span.TaskName a{
+    max-width: 350px;
+}
+.taskName span:nth-child(2){
+	margin-left:10px;}
+.taskName .TaskName .move {
+    color: #000;
+}
+.taskName span.TaskName a {
+    color: #333;
+    font-size: 24px;
+}
+.taskName .TaskName	.move:hover{
+	color:#59BE8E;
+}
+
+.btnRelease:hover{
+	background: #2c87df;
+}
+.btnRelease:focus{
+	background: #2c67df;
+}
+.btnRelease:active{
+	background: #2c37df;
+}
+.btnDetails {
+	background: #46c47a;
+}
+.stopBtnDe{
+	background:#C45F46;}
+.btnDetails:hover{
+	background: #46c45a;
+}
+.btnDetails:focus{
+	background: #46c49a;
+}
+.btnDetails:active{
+	background: #46c51a;
+}
+.stopBtnDe{
+	background:#C45F46;}
+	
+.stopBtnDe:hover{
+	background-color:#C44F46
+	}
+.taskinfo .fa-stop-circle-o{
+	color:#FFF}

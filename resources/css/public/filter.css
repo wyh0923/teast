@@ -1,0 +1,119 @@
+/*Filter*/
+
+
+.Filter .filter {
+	border-bottom: 1px solid #CCCCCC;
+	font-size: 14px;
+	line-height: 50px;
+	position: relative;
+	padding: 5px 0 0 8px;
+	background: #fcfcfc;
+}
+
+.Filter .filterTitle {
+	font-weight: normal;
+	width: 80px;
+	font-size: 14px;
+	color: #888885;
+	position: absolute;
+	height: 40px;
+	line-height: 40px;
+	left: 0;
+	top:6px;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.Filter .filterList {
+	line-height: 40px;
+	padding: 0 10px 0 90px;
+}
+.Filter .filterList a input{
+	vertical-align:text-bottom;}
+.Filter .filterList a {
+	padding: 2px 8px;
+	white-space: nowrap;
+	color: #14191e;
+}
+
+.Filter .filterList a:hover {
+	color: #00a8ec;
+}
+.Filter .filterList a.filterCur {
+	background: #00a8ec;
+	color: #FFFFFF;
+	border-radius:3px;
+}
+
+.total .btnNew {
+	display: block;
+	min-width: 75px;
+	height: 27px;
+	background: #2b95da;
+	color: #fff;
+	text-align: center;
+	float: right;
+	border-radius: 3px;
+	margin: 8px 10px 8px 0;
+	line-height: 27px;
+}
+.total .delyoure{
+	background-color:#c35e46;}
+.total {
+
+	height: 42px;
+	background: #fcfcfc;
+
+}
+
+.total h3 {
+	min-width: 100px;
+	border-right: 1px solid #cccccc;
+	background: #fcfcfc;
+	font-weight: normal;
+	text-align: left;
+	float: left;
+	line-height: 42px;
+	font-size: 14px;
+	padding:0 10px;
+}
+
+.total a {
+	padding: 0 15px;
+	color: #888888;
+	line-height: 42px;;
+}
+.total a.btnLevel i{
+	margin-left:4px;}
+.total a.btnLevel:hover{
+	color:#00a8ec;
+	}
+.marAuto{
+	padding:0 6px;}
+
+.search-a {
+	width: 168px;
+	border-bottom: 1px solid #666666;
+	float: right;
+
+	margin-right: 12px;
+	margin-top:10px;
+}
+
+.iptSearch-a {
+	width: 137px;
+	border: none;
+	outline: none;
+	background: #fcfcfc;
+	color: #888885;
+}
+.total .selectCss{
+	margin-left: 172px;
+	line-height:42px;}
+
+.total .selectCss select{
+	width:200px;}

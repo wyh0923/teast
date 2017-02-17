@@ -1,0 +1,358 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.addCourseInner{
+	padding-top:20px;}
+.addCourseInner .addItem {
+	margin-bottom: 20px;
+	position: relative;
+	}
+
+.addCourseInner .addItem .addTit {
+	float: left;
+    margin-left: 6px;
+    display: block;
+    width: 130px;
+    font-size: 16px;
+    color: #666666;
+    text-align: right;
+    line-height: 29px;
+}
+.resourceurl{
+    position: relative;
+}
+.resourceurl a{
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+}
+.daoNews{
+    width: 440px;
+    float: left;
+    overflow: hidden;
+    margin-left:150px;
+    color: red;
+    font-size: 13.33px;
+    position: relative;
+    padding-right: 24px;
+    padding-top:10px;
+    margin-top: 10px;
+
+}
+.daoNews i{
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    right: 6px;
+    cursor: pointer;
+
+}
+.newStarBtn{
+    font-size: 17px;
+    display: block;
+    position:absolute;
+    left:92px;
+    top: 30px;
+    border: 2px solid #dedede;
+    width: 20px;
+    height: 20px;
+    text-align:center;
+    border-radius: 50%;
+    line-height: 20px;
+    color: #dedede;
+    cursor: pointer;
+}
+.newStarBtn:hover{
+    border: 2px solid #666;
+    color: #666;
+}
+.addCourseInner .addItem .action{
+	color:red;
+	padding-left:20px;}
+.addCourseInner .addItem label.cur {
+    padding: 2px 5px;
+    background: #2b95da;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 29px;
+    border-radius: 3px;
+}
+.addCourseInner .addItem label {
+    padding: 2px 8px;
+    line-height: 29px;
+    cursor: pointer;
+}
+.addCourseInner .sel {
+    width: 198px;
+    border: 1px solid #CCCCCC;
+    height: 29px;
+    float: left;
+    position: relative;
+}
+.addCourseInner .fl {
+    float: left;
+    margin-left: 6px;
+}
+.addCourseInner .addIpt {
+    width: 454px;
+    height: 27px;
+    border: 1px solid #CCCCCC;
+}
+.addCourseInner select.addIpt{
+	width:462px;}
+.addCourseInner .addTxt {
+    width: 454px;
+    height: 148px;
+    border: 1px solid #CCCCCC;
+    resize: none;
+}
+.addCourseInner .uploadBtn, .addCourseInner .disuploadBtn {
+    display: inline-block;
+    width: 70px;
+    height: 29px;
+    border-radius: 3px;
+    margin-left: 5px;
+    color: #FFFFFF;
+    line-height: 29px;
+    text-align: center;
+    background: #2b95da;
+}
+.addCourseInner .showPic {
+    float: left;
+    width: 167px;
+    height: 122px;
+    background: url(../../imgs/public/showpic.png) no-repeat;
+	margin-top:30px;
+    
+
+}
+.addCourseInner .showNoPic {
+    background: none;
+
+}
+.addCourseInner .showPic img{
+	width: 167px;
+    height: 122px;
+	display:block;
+	}
+.addQuesInner .addItem label a {
+    color: #666666;
+}
+.addQuesInner .addItem label .curForBlue {
+    color: #2b95da;
+}
+
+.addQuesInner .addItem label a:hover{
+    color: #2b95da;
+}
+.testPaperSubjectTable{
+	table-layout: fixed;
+	width: 775px;
+	margin-left: 55px;
+}
+.addPaperBox .onekeyaverage {
+    display: block;
+    float: left;
+    width: 89px;
+    height: 29px;
+    border-radius: 3px;
+    background: #337744;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 29px;
+	margin-left: 490px;
+}
+.addPaperBox .changeBtn {
+    display: block;
+    float: right;
+    width: 89px;
+    height: 29px;
+    border-radius: 3px;
+    background: #2b65da;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 29px;
+}
+.testPaperSubjectTable .quesListTable .score{
+	width:80px;
+	text-align:center;
+	 margin-left: -2px;}
+.addPaperBox {
+    padding-top: 30px;
+}
+/*添加题目*/
+.addQuesInner{
+	padding:20px;}
+.xuantiBox {
+    width: 470px;
+    float: left;
+	margin-top:4px;
+}
+.addQuesInner .addItem input.changJingName {
+	width:300px; 
+	height:26px; 
+	line-height:26px;
+	padding:1px 4px;}
+.xuantiBox input{
+    float:left;
+    margin-top: 6px;
+}
+.xuantiBox input[type="text"] {
+    width: 410px;
+    border: 1px solid #CCCCCC;
+    height: 23px;
+    padding: 1px 4px;
+    margin-top: 0;
+    margin-left: 4px;
+}
+
+.xuantiBox P {
+    margin-top: 20px;
+}
+.xuantiBox .noMarginTop:first-child {
+    margin-top: 0px;
+}
+.xuantiBox span{
+	cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+	color:#000;
+    margin-left: 4px;}
+#panduan span{
+    font-size: 14px;
+    font-weight:normal;
+    float: left;
+    line-height: 25px;
+    padding-right: 14px;
+}
+.xuantiBox span a{
+	display:inline-block;
+	cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+	color:#000;
+	height:26px;
+	overflow:hidden;
+	line-height:20px;}
+.xuantiBox #panduan input{
+	vertical-align:sub}
+.addQuesListBox {
+    table-layout: fixed;
+    width: 710px;
+    margin-left: 55px;
+    float: left;
+    margin-top: 5px !important;
+}
+.addQuesInner .addQuesListBox td{
+	padding:0 1.2%;
+	font-size:13.33px;
+	text-overflow: ellipsis;
+    overflow: hidden;
+	}
+.addQuesInner .addQuesListBox tr td:last-child{
+	font-size:14px;}
+/*新加工具*/
+.addToolBox {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.addToolBox .addITool {
+    margin-bottom: 20px;
+}
+.addToolBox .fl {
+    float: left;
+    margin-left: 6px;
+}
+.addToolBox .addTit {
+    display: block;
+    width: 130px;
+    font-size: 16px;
+    color: #666666;
+    text-align: right;
+    line-height: 29px;
+}
+.addToolBox .toolWidth{
+	line-height:34px;
+	height:34px;
+	width:445px;
+    border: 1px solid #CCCCCC;
+	}
+
+.addToolBox .addITool input{
+	width:435px;
+    border: 1px solid #CCCCCC;}
+.addToolBox .btnBox{
+    padding-right: 90px
+}
+.addToolBox #adderrormsg{
+    padding-right: 90px;
+}
+/*教师端编辑试卷*/
+.questionitem{
+	background-color:#FDFDFD;
+	padding:20px;
+	margin-bottom:20px;
+	-webkit-box-shadow: 0px 4px 14px rgba(0,0,0,.175);
+    box-shadow: 0px 4px 14px rgba(0,0,0,.1);
+	margin:0 4px 20px;}
+.questionitem .questiontitle{
+	font-size:16px;
+	line-height:20px}	
+.questionitem .questiontitle input[type="text"] {
+	width:36px;
+	height:16px;
+}
+.questionitem .questiontitle .quesClasses{
+	padding:0 8px;}
+.questionitem .questiontitle .delquestion{
+	vertical-align:text-top;
+	color:#666666;
+	padding-left:20px;}
+.questionitem .questiondesc{
+	padding: 15px 24px;
+    overflow: hidden;}
+/*.questionitem .questiondesc p{
+    float: left;
+}*/
+.questionitem .questiondesc a{
+    display: inline-block;
+    padding:0 3px;
+    background-color: #eeeeee;
+    vertical-align: top;
+    margin:0 3px;
+    color: #2B95DA;
+}
+.questionitem .questiondesc a:hover{
+    text-decoration: underline;
+    background-color: #e2e2e2;
+    color: blue;
+    
+}
+.questionitem ul{
+	padding:0 24px;
+	border-bottom:1px solid #F4F4F4;}
+.questionitem ul li{
+	padding-bottom:10px;
+	}
+.questionitem .Qright {
+	background-color: rgb(116, 199, 9);
+    padding: 0 10px;
+    margin-left: 20px;
+    color: #FFF;
+    
+}
+.questionitem .questionnet{
+	padding:0 24px 15px;}
+.questiondesc p{
+    float: left;
+}   
+/*弹窗*/
+table.tdLeft tbody tr td:nth-child(2){
+	text-align:left;}
+	
+/*选择题目*/
+.infoBox .search_type{
+	margin-left: 40px;
+	float: left;
+	line-height: 42px;
+}
